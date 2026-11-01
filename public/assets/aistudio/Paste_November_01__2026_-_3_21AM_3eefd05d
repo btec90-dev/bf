@@ -1,0 +1,259 @@
+Here is the comprehensive text content of the entire Maman & Bébé application across all modules, guides, medical databases, checklists, and clinical tools.
+1. Application Identity & Navigation
+Application Title: Maman & Bébé
+Application ID / Package: com.aistudio.grossesse.mbtxyz
+Cloud Sync Status: Synchronisation Cloud Active (410bala@gmail.com)
+Primary Navigation Tabs:
+Accueil (Home): Compte à rebours, protocole du jour, prochains rappels, constantes vitales et accès rapide.
+Chronologie (Timeline): Évolution fœtale et maternelle de la semaine 1 à 41 SA, jalons obstétricaux, vue "Dans le Ventre 3D".
+Guide & Glossaire: Règles nutritionnelles, hygiène, signaux d'alerte et définitions obstétricales.
+Outils & Constantes: Tensiomètre ACOG, glycémie, pesées, compte-coups fœtaux, contraction timer, base de sécurité médicamenteuse.
+Bébé & Journal (Baby & Journal): Projet de naissance, trousseau maternité, suivi des tétées, biberons, couches et album d'échographies.
+2. PMA / FIV Protocol & Clinic Coordination
+Nom du Protocole: Protocole Antagoniste (FIV/ICSI)
+Posologies Quotidiennes Type:
+Matin (08h00) : Cetrotide 0.25 mg (injection sous-cutanée abdominale)
+Soir (19h00) : Gonal-F 150 UI (injection sous-cutanée abdominale)
+Nuit (20h00) : Progestérone PIO 50 mg (injection intramusculaire fessière ou ovules Utrogestan 200 mg)
+Rappels d'Injections :
+Rappel Matin : Actif à 08:00
+Rappel Soir : Actif à 20:00
+Coordonnées de l'Équipe Médicale :
+Centre Médical : Centre PMA
+Téléphone Secrétariat : +33 1 42 16 00 00
+Ligne d'Urgence PMA : +33 1 42 16 00 01
+Email Coordinatrice : coordination.pma@hopital.fr
+3. 41-Week Pregnancy Timeline (Chronologie Semaine par Semaine)
+SA	Trimestre	Taille Fœtale Comparée	Développement du Fœtus	Changements chez la Maman	Jalons Médicaux Clés
+1 SA	1er Trim.	Cellule microscopique	Fécondation et division cellulaire rapide dans la trompe de Fallope.	Début de la sécrétion hormonale de hCG.	Calcul de la DPA et première prescription d'acide folique.
+2 SA	1er Trim.	Cellule microscopique	Migration du zygote et fusion des pronoyaux.	Nidation dans l'endomètre utérin.	Maintien du taux de progestérone (soutien PMA).
+3 SA	1er Trim.	Grain de sable (~0.2 mm)	Formation du blastocyste et différenciation des couches cellulaires.	Légers spottings d'implantation possibles.	Confirmation du transfert embryonnaire (TEC).
+4 SA	1er Trim.	Taille d'un pavot (~1 mm)	Formation du tube neural, amorce du cœur et du placenta.	Absence de règles, seins sensibles, fatigue intense.	Prise de sang Bêta-hCG quantitative de confirmation.
+5 SA	1er Trim.	Graine de sésame (~2 mm)	Le cœur primitif commence à battre et à pomper le sang.	Premières nausées matinales et tension mammaire.	Vérification de l'évolution du taux de hCG.
+6 SA	1er Trim.	Lentille (~4 mm)	Fermeture du tube neural, ébauche des yeux et bourgeons des membres.	Fatigue prononcée, sensibilité olfactive accrue.	Premier rendez-vous de datation gynécologique.
+7 SA	1er Trim.	Myrtille (~9 mm)	Développement intense du cerveau et des hémisphères cérébraux.	Envies fréquentes d'uriner, salivation abondante.	Planification du bilan prénatal sérologique.
+8 SA	1er Trim.	Framboise (~1.5 cm)	Les membres s'allongent, les mains et pieds se dessinent.	Utérus de la taille d'une orange, nausées.	Échographie de viabilité précoce (8-10 SA).
+9 SA	1er Trim.	Raisin (~2.3 cm)	Mouvements fœtaux spontanés invisibles, valves cardiaques en place.	Ventre à peine arrondi, sautes d'humeur hormonales.	Suivi de la tolérance aux vitamines prénatales.
+10 SA	1er Trim.	Figue (~3.1 cm)	Les organes majeurs fonctionnent, apparition des ongles et bourgeons dentaires.	Énergie fluctuante, sensibilité cutanée.	Écoute des battements cardiaques au Doppler fœtal.
+11 SA	1er Trim.	Citron vert (~4.1 cm)	Le fœtus bouge activement, le diaphragme se met en place.	Atténuation progressive des nausées pour certaines mamans.	Préparation de l'échographie du premier trimestre.
+12 SA	1er Trim.	Prune (~5.4 cm)	Organes pleinement formés, réflexes de succion et déglutition.	Le bas-ventre commence à s'arrondir visiblement.	Échographie T1 (11-13 SA), Clarté nucale & DPNI.
+13 SA	1er Trim.	Pêche (~7.4 cm)	Fin du premier trimestre, cordes vocales constituées.	Regain d'énergie, stabilisation hormonale.	Déclaration officielle de grossesse.
+14 SA	2e Trim.	Citron (~8.7 cm)	Les reins sécrètent de l'urine, mimiques faciales.	Énergie retrouvée, teint lumineux (pregnancy glow).	Consultation prénatale mensuelle du 4e mois.
+15 SA	2e Trim.	Pomme (~10 cm)	Le squelette s'ossifie, apparition du lanugo (duvet protecteur).	Premiers mouvements subtils (bulles ou battements d'ailes).	Examen bucco-dentaire de prévention.
+16 SA	2e Trim.	Avocat (~11.6 cm)	Perception de la lumière à travers les paupières closes.	Ventre bien rond, essoufflement modéré à l'effort.	Bilan sérologique trimestriel (Toxoplasmose).
+17 SA	2e Trim.	Navet (~13 cm)	Dépôt du tissu adipeux brun pour la thermorégulation.	Premiers coups de pied nets et identifiables.	Contrôle de la tension artérielle maternelle.
+18 SA	2e Trim.	Poivron (~14.2 cm)	Audition opérationnelle : perception de la voix maternelle et battements.	Élargissement de l'utérus, tiraillements ligamentaires.	Planification de l'échographie morphologique T2.
+19 SA	2e Trim.	Tomate (~15.3 cm)	Sécrétion du vernix caseosa pour protéger l'épiderme.	Mouvements fœtaux francs et réguliers.	Préparation de l'échographie morphologique.
+20 SA	2e Trim.	Banane (~16.4 cm)	Cap d'or de la mi-grossesse ! Cheveux et ongles bien développés.	Ventre rebondi, sensation de jambes lourdes.	Échographie Morphologique T2 (20-22 SA).
+21 SA	2e Trim.	Carotte (~18 cm)	Déglutition et absorption digestive du liquide amniotique.	Contractions utérines d'entraînement (Braxton-Hicks).	Consultation prénatale du 5e mois.
+22 SA	2e Trim.	Papaye (~19 cm)	Les cinq sens s'affinent, le pancréas produit de l'insuline.	Prise de poids régulière, besoin hydrique important.	Contrôle de la longueur du col utérin.
+23 SA	2e Trim.	Mangue (~20 cm)	Sécrétion de surfactant dans les poumons pour la respiration.	Modification du centre de gravité, cambrure lombaire.	Conseils posturaux et soulagement du dos.
+24 SA	2e Trim.	Épi de maïs (~21 cm)	Cap de viabilité médicale en soins de néonatalogie spécialisée.	Prise de poids plus soutenue, vigilance anémie.	Dépistage Diabète Gestationnel (HGPO 75g glucose).
+25 SA	3e Trim.	Chou-fleur (~22 cm)	Maturation cérébrale rapide, sursauts aux bruits extérieurs.	Sommeil fractionné, essoufflement en montée.	Vaccination coqueluche recommandée pour les proches.
+26 SA	3e Trim.	Laitue (~23 cm)	Les yeux s'ouvrent, cycles de sommeil paradoxal (rêves).	Crampes nocturnes aux mollets, besoin de repos.	Consultation prénatale du 6e mois.
+27 SA	3e Trim.	Rutabaga (~24 cm)	Le cerveau coordonne les mouvements d'inspiration.	Contractions d'entraînement plus perceptibles.	Contrôle RAI si rhésus sanguin négatif.
+28 SA	3e Trim.	Aubergine (~25 cm)	Clignement régulier des paupières, orientation vers la lumière.	Remontées acides gastriques (pyrosis).	Injection d'immunoglobulines anti-D si Rh-.
+29 SA	3e Trim.	Courge butternut (~26 cm)	Accumulation de graisse sous-cutanée, thermorégulation.	Fatigue en fin de journée, jambes lourdes.	Consultation prénatale du 7e mois.
+30 SA	3e Trim.	Chou cabus (~27 cm)	Production fœtale autonome de globules rouges.	Fréquentes envies d'uriner dues à l'appui sur la vessie.	Échographie de Croissance T3 (30-32 SA).
+31 SA	3e Trim.	Noix de coco (~28 cm)	Pic de connexions neuronales et synaptiques.	Pression accrue sur le plancher pelvien.	Contrôle de la présentation fœtale (tête ou siège).
+32 SA	3e Trim.	Courge (~29 cm)	Les ongles atteignent l'extrémité des doigts.	Utérus volumineux, souffle court en position allongée.	Consultation prénatale du 8e mois.
+33 SA	3e Trim.	Ananas (~30 cm)	Transfert passif massif d'anticorps maternels protecteurs.	Fatigue physique, besoin de siestes fractionnées.	Surveillance de la tension et recherche d'œdèmes.
+34 SA	3e Trim.	Melon cantaloup (~31 cm)	Maturation pulmonaire finale, bébé bascule tête en bas.	Le ventre descend légèrement, soulageant le diaphragme.	Entretien prénatal et finalisation du projet de naissance.
+35 SA	3e Trim.	Poire (~32 cm)	Peau lisse et rebondie, régression presque totale du lanugo.	Contractions préparatoires plus intenses.	Dépistage vaginal du Streptocoque B (SGB).
+36 SA	3e Trim.	Melon (~33 cm)	Bébé occupe tout l'espace disponible, gain pondéral rapide.	Tensions pelviennes, ramollissement du col.	Consultation du 9e mois & Rendez-vous Anesthésiste.
+37 SA	3e Trim.	Bette à carde (~34 cm)	Bébé considéré à terme ! Les organes sont prêts pour le grand air.	Faux travail possible, perte du bouchon muqueux.	Surveillance hebdomadaire de fin de grossesse.
+38 SA	3e Trim.	Citrouille (~35 cm)	Les réflexes de préhension et succion sont parfaits.	Pesanteur pelvienne maximale, sommeil léger.	Monitoring fœtal (RCF) et évaluation clinique du col.
+39 SA	3e Trim.	Petite pastèque (~36 cm)	Bébé stocke le glycogène nécessaire à sa naissance.	Contractions de travail imminentes, surveillance poche des eaux.	Préparation imminente du départ pour la maternité.
+40 SA	3e Trim.	Pastèque (~37 cm+)	Terme officiel atteint ! Rencontre imminente avec votre bébé.	Impatience, contractions rythmées et rapprochées.	Bienvenue à Bébé 🎉 (Surveillance post-terme à J+2).
+4. Key Medical Consultations & Obstetric Milestones
+Semaines 8 à 10 — Consultation OBGYN :
+Lieu : Cabinet du Gynécologue-Obstétricien
+Description : Transition officielle du centre de fertilité vers le suivi de grossesse standard. Bilan de sortie PMA, transmission du dossier médical complet, et arrêt progressif sous surveillance du soutien hormonal (progestérone / œstrogènes).
+Examens Clés : Échographie de transition, examen clinique complet, protocole de sevrage hormonal.
+Semaines 11 à 13 — Échographie du 1er Trimestre & DPNI :
+Lieu : Centre d'Échographie Obstétricale
+Description : Mesure de la clarté nucale, étude de la morphologie précoce, datation précise de la grossesse et prise de sang pour le dépistage combiné de la trisomie 21 ou DPNI (ADN fœtal circulant).
+Examens Clés : Échographie morphologique T1, mesure de la clarté nucale, prise de sang DPNI.
+Semaines 16 à 18 — Consultation Prénatale du 4e Mois :
+Lieu : Cabinet ou Maternité
+Description : Premier contrôle morphologique intermédiaire, écoute des battements cardiaques fœtaux, vérification de la tension artérielle, du poids et prescription du bilan sérologique du 2e trimestre.
+Examens Clés : Examen clinique mensuel, bandelette urinaire (albumine et sucre), bilan T2.
+Semaines 20 à 22 — Échographie Morphologique T2 :
+Lieu : Centre d'Échographie Spécialisé
+Description : Examen détaillé organe par organe du fœtus (cerveau, cœur, reins, membres, colonne vertébrale), vérification de la quantité de liquide amniotique et de l'insertion placentaire.
+Examens Clés : Échographie morphologique de référence, Doppler des artères utérines, biométrie complète.
+Semaines 24 à 28 — Test HGPO & Bilan du 6e Mois :
+Lieu : Laboratoire d'Analyses Médicales
+Description : Dépistage du diabète gestationnel par ingestion de 75g de glucose (HGPO) avec prises de sang à jeun, à 1h et à 2h. Contrôle de la formule sanguine (NFS) et recherche d'agglutinines irrégulières (RAI) si rhésus négatif.
+Examens Clés : HGPO (Glycémie à jeun, 1h, 2h), NFS / Ferritine, RAI si Rh négatif.
+Semaines 30 à 32 — Échographie de Croissance T3 :
+Lieu : Centre d'Échographie Obstétricale
+Description : Évaluation de la croissance fœtale estimée, position du bébé (céphalique ou siège), quantité de liquide amniotique et bon fonctionnement placentaire.
+Examens Clés : Échographie de croissance fœtale, Doppler ombilical et cérébral, vérification de la présentation.
+Semaines 34 à 36 — Consultation Anesthésie & Dépistage SGB :
+Lieu : Maternité & Laboratoire
+Description : Consultation obligatoire avec le médecin anesthésiste pour valider le dossier péridurale et l'anesthésie potentielle. Réalisation du prélèvement vaginal de dépistage du Streptocoque B (SGB).
+Examens Clés : Consultation d'anesthésie, prélèvement vaginal Streptocoque B, bilan de coagulation pré-opératoire.
+Semaines 37 à 40+ — Consultations de Terme & Accouchement :
+Lieu : Maternité (Salle de Naissance)
+Description : Suivi rapproché hebdomadaire de fin de terme avec monitoring fœtal (RCF) et examen du col utérin.
+Examens Clés : Monitoring fœtal (RCF / NST), examen clinique du col, accueil de bébé.
+5. Maternal Vitals & Clinical Diagnostic Engine (ACOG & CDC)
+A. Tension Artérielle (Blood Pressure)
+Tension Optimale : Systolique < 120 mmHg ET Diastolique < 80 mmHg.
+Interprétation : Excellente perfusion placentaire et sécurité maternelle.
+Tension Élevée (Pré-hypertension) : Systolique 120–129 mmHg ET Diastolique < 80 mmHg.
+Recommandation : S'hydrater, se reposer sur le côté gauche (décubitus latéral gauche).
+Hypertension Stade 1 : Systolique 130–139 mmHg OU Diastolique 80–89 mmHg.
+Recommandation : Surveillance rapprochée, vérifier l'absence d'œdèmes soudains ou de maux de tête.
+Hypertension Gestationnelle (Stade 2) : Systolique 140–159 mmHg OU Diastolique 90–109 mmHg.
+Recommandation : Repos 15 min, renouveler la mesure. Si la valeur persiste, contacter rapidement la sage-femme ou le gynécologue.
+Alerte Critique (Hypertension Sévère / Urgence Pré-éclampsie) : Systolique ≥ 160 mmHg OU Diastolique ≥ 110 mmHg.
+Recommandation : Urgence Maternité immédiate (appeler le 15 ou se rendre directement aux urgences obstétricales).
+B. Glycémie & Diabète Gestationnel (Blood Glucose)
+Hypoglycémie : < 60 mg/dL.
+Action : Consommer immédiatement 15g de sucre rapide (demi-verre de jus de fruit) et re-mesurer après 15 min.
+Glycémie à Jeun (Fasting) : Objectif ≤ 95 mg/dL.
+Glycémie 1h Post-Prandiale : Objectif ≤ 140 mg/dL.
+Glycémie 2h Post-Prandiale : Objectif ≤ 120 mg/dL.
+Glycémie Aléatoire : Objectif ≤ 140 mg/dL.
+Hyperglycémie Marquée : Dépassement de plus de 40 mg/dL au-delà de la cible -> Consulter le diabétologue ou l'équipe de suivi.
+C. Suivi Pondéral Maternel (Maternal Weight)
+Gain Pondéral Sain : Progression graduelle et régulière alignée sur l'IMC pré-conceptionnel.
+Alerte Rétention d'Eau Aiguë : Prise de poids > 1,5 kg en moins de 8 jours au 2e ou 3e trimestre.
+Avis clinique : Signe d'appel possible de rétention hydrique liée à une pré-éclampsie ; contrôler la tension artérielle.
+6. Pregnancy Guide (Conseils Médicaux & Hygiène de Vie)
+Aliments à Éviter Absolument (Interdictions) :
+Viandes crues, saignantes ou fumées (carpaccio, tartare). Risque toxoplasmose.
+Poissons crus (sushis, sashimis, tartares de poisson), poissons fumés (saumon fumé), fruits de mer non cuits (huîtres).
+Produits laitiers et fromages au lait cru, croûtes de fromage fleuries ou lavées (brie, camembert, roquefort). Risque de listériose.
+Œufs crus ou peu cuits (œufs à la coque, mayonnaise maison, mousse au chocolat artisanale). Risque de salmonelle.
+Charcuterie crue ou séchée (jambon cru, saucisson, rillettes, pâté artisanal).
+Fruits et Légumes (Alimentation) :
+Lavez scrupuleusement tous les fruits, légumes crus et herbes aromatiques à grande eau (avec éventuellement quelques gouttes de vinaigre blanc) pour éliminer les oocystes de toxoplasme. Évitez les crudités hors de votre domicile si le lavage n'est pas garanti.
+Suppléments Recommandés (Alimentation) :
+Acide folique (Vitamine B9 / 400 µg par jour ou 5 mg si antécédents) indispensable dès la phase pré-conceptionnelle et tout le 1er trimestre pour prévenir les anomalies de fermeture du tube neural (spina bifida).
+Vitamine D (en ampoule au 6e/7e mois ou quotidienne), iode et supplémentation en fer en cas d'anémie avérée sur la prise de sang.
+Hydratation et Boissons (Hygiène de vie) :
+Consommez au moins 1,5 à 2 litres d'eau minérale ou filtrée par jour pour prévenir les infections urinaires, la constipation et assurer un bon volume de liquide amniotique.
+Zéro alcool dès la conception.
+Limitez la caféine à 200 mg par jour maximum (1 à 2 tasses de café par jour).
+Bannissez totalement les boissons énergisantes.
+Signaux d'Alerte (Urgences Médicales) :
+Pertes de sang vaginales (rouges ou abondantes).
+Contractions utérines douloureuses et rythmées avant 37 SA.
+Fuite ou écoulement continu de liquide tiède (fissure ou rupture de la poche des eaux).
+Maux de tête violents, persistants, accompagnés de troubles visuels (mouches, éclairs) ou bourdonnements d'oreille (acouphènes).
+Gonflement soudain du visage, des mains ou des pieds.
+Diminution nette ou absence inhabituelle des mouvements de bébé sur plus de 12 à 24 heures.
+Fièvre supérieure à 38°C sans point d'appel clair.
+7. Obstetric Medical Glossary (Glossaire)
+SA (Semaines d'Aménorrhée) : Nombre de semaines écoulées depuis le premier jour des dernières règles (DDR). Unité de mesure officielle des professionnels de santé.
+DPA (Date Prévue d'Accouchement) : Date théorique calculée à 41 SA révolues en France (soit 39 semaines de grossesse effective / 287 jours).
+Colostrum : Premier liquide nourricier produit par les seins dès le 3e trimestre et les premiers jours de vie, doré et ultra-concentré en immunoglobulines (IgA).
+Amniocentèse : Prélèvement de 15 à 20 ml de liquide amniotique par ponction transabdominale guidée par échographie, pour établir le caryotype génétique fœtal.
+Contractions de Braxton-Hicks : Contractions physiologiques d'entraînement de l'utérus, irrégulières, sans rythme fixe, non douloureuses, n'agissant pas sur la dilatation du col.
+DPNI (Dépistage Prénatal Non Invasif) : Analyse de l'ADN fœtal libre circulant dans le sang maternel, permettant de dépister avec une sensibilité > 99 % la trisomie 21 sans geste invasif.
+Clarté Nucale : Espace sous-cutané translucide situé à la nuque du fœtus, mesuré rigoureusement entre 11 SA et 13 SA + 6 jours (normale < 3 mm).
+Streptocoque B (SGB) : Bactérie fréquente et bénigne pour la maman mais transmissible au bébé lors du passage dans la filière génitale. Dépistée à 35-37 SA pour administrer une antibioprophylaxie pendant le travail si positive.
+Progestérone (PIO) : Hormone lutéale clé (par voie intramusculaire ou vaginale) indispensable au maintien de la nidation embryonnaire, particulièrement en cycle de PMA / FIV.
+Terme / Post-terme : Une grossesse atteint son terme à 37–41 SA. Au-delà de 41 SA + 6 jours, on parle de dépassement de terme nécessitant une surveillance monitorée tous les 2 jours et un éventuel déclenchement.
+8. Maternity Bag & Baby Trousseau Checklists
+Trousseau Bébé (Nouveau-né)
+Pyjamas zippés double sens (0-3 mois) — Quantité : 4 à 6 — Indispensable
+Note : Les fermetures éclair à double sens permettent de changer bébé la nuit sans déshabiller le haut ni exposer son thorax au froid.
+Bodys croisés kimono manches courtes & longues (0-3 mois) — Quantité : 6 à 8 — Indispensable
+Note : La coupe croisée s'enfile sans forcer sur la tête et la fontanelle fragile du nouveau-né.
+Gigoteuses (turbulettes) / langes d'emmaillotage — Quantité : 3 à 4 — Indispensable
+Note : Calme le réflexe de Moro et garantit un couchage sécurisé sur le dos sans couverture ni oreiller.
+Siège auto bébé (cosy groupe 0+) avec base Isofix — Quantité : 1 — Indispensable
+Note : Obligatoire dès la sortie de maternité pour un transport sécurisé et homologué en voiture.
+Berceau cododo / lit avec draps-housses respirants — Quantité : 1 — Indispensable
+Note : Matelas ferme aux dimensions exactes du couchage pour prévenir les risques de MSN.
+Kit de premiers soins bébé (thermomètre rectal à embout souple, mouche-bébé, sérum physiologique) — Quantité : 1 kit — Indispensable
+Note : Indispensable pour nettoyer les yeux, le nez et surveiller la température corporelle dès les premiers jours.
+Valise Maman & Post-Partum
+Valise de maternité (vêtements amples, câble chargeur 3m, trousse de toilette, dossier médical) — Quantité : 1 sac — Indispensable
+Note : À préparer dès 36 SA. Prévoir un chargeur long, des chaussettes chaudes, brumisateur d'eau minérale et vos pièces d'identité / carte de groupe sanguin.
+Kit de récupération périnéale (flacon bidet péri-bouteille, compresses d'hamamélis, poches de froid, culottes filet jetables) — Quantité : 1 kit — Indispensable
+Note : Permet une hygiène intime douce à l'eau tiède après chaque miction et apaise les œdèmes périnéaux.
+Kit d'allaitement & tire-lait (soutiens-gorge d'allaitement sans armatures, baume lanoline pure, coussinets, coussin de maternité) — Quantité : 1 ensemble — Indispensable
+Note : Prévient et répare les crevasses mamelonnaires, absorbe les montées de lait et soulage les bras et les lombaires lors des tétées.
+9. Birth Project Questionnaire (Projet de Naissance)
+Accueil & Ambiance en Salle de Naissance :
+Question : Souhaitez-vous tamiser l'éclairage et écouter de la musique pendant le travail ?
+Options :
+Oui, ambiance tamisée et playlist personnelle.
+Éclairage standard de la salle de naissance.
+Pas de préférence particulière.
+Gestion du Travail & Soulagement de la Douleur :
+Question : Quelles méthodes non médicamenteuses de gestion de la douleur privilégiez-vous ?
+Options :
+Ballon de grossesse, marche et bains chauds.
+Massages et pressions lombaires par l'accompagnant.
+Liberté totale de mouvement selon les sensations.
+Péridurale :
+Question : Quelle est votre position concernant la péridurale ?
+Options :
+Demande de péridurale dès que possible / souhaitée.
+Péridurale ambulatoire (dosée pour conserver la mobilité des jambes).
+Souhait d'essayer de m'en passer le plus longtemps possible (accouchement physiologique).
+Phase d'Expulsion & Poussée :
+Question : Comment envisagez-vous la phase d'expulsion ?
+Options :
+Poussée dirigée par l'équipe médicale.
+Poussée spontanée au réflexe d'éjection et selon les contractions.
+Utilisation d'un miroir pour voir la naissance du bébé.
+Accueil du Nouveau-Né :
+Question : Quels sont vos souhaits pour les premiers moments de bébé ?
+Options :
+Peau à peau immédiat et ininterrompu d'au moins 2 heures.
+Cordon ombilical coupé par le co-parent après l'arrêt complet des battements.
+Premiers soins (mesures, pesée, bain) différés après la première tétée / tétée d'accueil.
+10. Medication Safety Database (28 Substances & Habitudes Évaluées)
+Substance / Médicament	Statut Grossesse	Évaluation FDA / CRAT	Résumé Clinique & Précautions	Risques Fœtaux Éventuels	Alternatives Sûres
+Paracétamol (Doliprane, Acetaminophen)	Sûr (Safe)	Catégorie B / Compatible	Antalgique et antipyrétique de premier choix à tous les trimestres à posologie minimale efficace (max 3-4 g/jour ).	Aucun aux doses thérapeutiques usuelles.	Repos, compresses fraîches, bonne hydratation.
+Ibuprofène (Advil, Motrin, Nurofen)	Interdit (Unsafe/Avoid)	Catégorie D (T3) / Warning FDA	Contre-indiqué formellement dès le 6e mois (24 SA). Déconseillé au 1er et 2e trimestre sauf avis formel.	Fermeture prématurée du canal artériel, oligohydramnios, insuffisance rénale fœtale.	Paracétamol, compresses tièdes, massages.
+Phloroglucinol (Spasfon)	Sûr (Safe)	Profil de sécurité élevé	Antispasmodique couramment utilisé pour soulager les contractions utérines d'entraînement et spasmes digestifs.	Aucun tératogène documenté.	Repos au lit, bain chaud tiède, hydratation.
+Aspirine à Faible Dose (Kardégic 75-160mg)	Prudence / Avis Médical	Recommandé si prescrit	Prescrite spécifiquement pour la prévention de la pré-éclampsie et le retard de croissance. À forte dose (>500mg), formellement proscrite comme les AINS.	Aucun à dose antiagrégante (≤ 160mg). À forte dose : risques hémorragiques et canal artériel.	Suivre strictement l'ordonnance médicale.
+Amoxicilline & Augmentin	Sûr (Safe)	Catégorie B / Compatible	Antibiotique pénicillinique de premier choix pendant la grossesse pour infections urinaires, dentaires et respiratoires.	Aucun risque malformatif documenté.	Céphalosporines de 2e génération si besoin.
+Isotrétinoïne (Roaccutane, Curacné)	Interdit (Unsafe/Avoid)	Catégorie X / Tératogène Majeur	Contre-indication absolue. Nécessite une double contraception et tests de grossesse mensuels stricts.	Malformations cranio-faciales, cardiaques et cérébrales sévères (embryopathie rétinoïde).	Érythromycine topique, acide azélaïque, soins doux sans savon.
+Rétinol & Vitamine A Acide (Trétinoïne)	Interdit (Unsafe/Avoid)	Catégorie C/X / À proscrire	Les dérivés de la vitamine A par voie orale ou topique concentrée traversent la barrière cutanée.	Risque potentiel d'anomalies de la crête neurale.	Acide azélaïque, niacinamide, acide hyaluronique.
+Inhibiteurs de l'IEC (Lisinopril, Ramipril, ARB)	Interdit (Unsafe/Avoid)	Catégorie D / Tératogène Fœtal	Traitement antihypertenseur toxique pour le développement des reins fœtaux dès le début de la grossesse.	Agénésie ou dysplasie rénale, anurie fœtale, oligohydramnios sévère.	Labétalol (Trandate), Méthyldopa (Aldomet), Nicardipine (Loxen).
+Lovenox (Énoxaparine / HBPM)	Sûr (Safe)	Catégorie B / 1re intention	Ne traverse pas le placenta. Anticoagulant indispensable dans les protocoles PMA, thrombophilies et antécédents de phlébite.	Aucun effet tératogène ou hémorragique direct sur le fœtus.	Héparines de bas poids moléculaire sous surveillance médicale.
+Progestérone (Utrogestan, Endometrin)	Sûr (Safe)	Catégorie B / Soutien Essentiel	Soutien fondamental de la phase lutéale, de la nidation embryonnaire et de la prévention des fausses couches.	Aucun effet indésirable fœtal.	Voie vaginale ou intramusculaire prescrite par le centre de fertilité.
+Gaviscon & Anti-acides (Maalox, Rennie)	Sûr (Safe)	Action locale barrière	Forme un gel protecteur dans l'estomac sans absorption systémique pour soulager le reflux gastro-œsophagien.	Aucun.	Fractionner les repas, surélever la tête de lit, éviter les épices.
+Oméprazole (Mopral, Inexium)	Sûr (Safe)	Catégorie C / Compatible	Inhibiteur de la pompe à protons prescrit en cas de pyrosis ou reflux gastrique sévère résistant aux anti-acides.	Pas de risque malformatif accru dans les larges études de cohorte.	Gaviscon, carbonate de calcium, mesures hygiéno-diététiques.
+Cétirizine & Loratadine (Zyrtec, Clarityne)	Sûr (Safe)	Catégorie B / 2e génération	Antihistaminiques de choix pour le traitement des rhinites allergiques saisonnières et de l'urticaire.	Absence de tératogénicité démontrée.	Sprays nasaux d'eau de mer stérilisée, sérum physiologique.
+Pseudoéphédrine (Actifed, Dolirhume, Humex)	Interdit (Unsafe/Avoid)	Risque vasoconstricteur	Vasoconstricteur réduisant la perfusion utéro-placentaire.	Diminution du débit artériel placentaire, risque de gastroschisis.	Lavage de nez au sérum physiologique, inhalations de vapeur.
+Bains bouillonnants chauds, Jacuzzis & Saunas	Interdit (Unsafe/Avoid)	Risque hyperthermie (>39°C)	L'élévation de la température corporelle centrale maternelle au-dessus de 38,9°C au 1er trimestre altère le tube neural.	Anomalies de fermeture du tube neural (spina bifida), syncopes.	Bains tièdes confortables à 36–37°C maximum.
+Caféine en excès (> 200 mg/jour)	Prudence / Limiter	Consommation modérée	Traversant librement le placenta, la caféine met beaucoup plus de temps à être éliminée par le fœtus.	Retard de croissance intra-utérin, accélération du rythme cardiaque fœtal.	Décaféiné à l'eau, tisanes de camomille ou de verveine.
+Alcool (Vin, Bière, Cidre, Alcools forts)	Interdit (Unsafe/Avoid)	Tolérance Zéro / Catégorie X	L'alcool franchit instantanément le placenta et atteint une concentration équivalente chez le fœtus.	Syndrome d'Alcoolisation Fœtale (SAF), retard mental, dysmorphie faciale.	Boissons pétillantes sans alcool, mocktails, jus de fruits frais.
+Acide Folique (Vitamine B9 / Spéciafoldine)	Sûr (Safe)	Catégorie A / Indispensable	Vitamine essentielle prévenant 70% des anomalies congénitales du tube neural.	Aucun (au contraire, protecteur majeur).	Légumes verts à feuilles, légumineuses, agrumes.
+Sertraline (Zoloft)	Prudence / Avis Médical	ISRS de 1re intention	Antidépresseur le plus documenté et sécuritaire en cas de dépression maternelle ou anxiété sévère.	Discret syndrome d'adaptation néonatal transitoire à la naissance.	Psychothérapie de soutien, consultation psychiatrique périnatale.
+Acide Valproïque (Dépakine, Micropakine)	Interdit (Unsafe/Avoid)	Catégorie X / Tératogène Sévère	Formellement proscrit. Risque majeur de spina bifida et de troubles autistiques et cognitifs graves.	Malformations congénitales sévères (10%) et troubles neurodéveloppementaux (40%).	Lamotrigine ou Lévétiracétam sous encadrement neurologique strict.
+Doxylamine + Vitamine B6 (Cariban, Donormyl)	Sûr (Safe)	Catégorie A / 1re ligne	Association de référence validée pour traiter les nausées et vomissements de la femme enceinte.	Aucun effet fœtotoxique avéré.	Fractionnement alimentaire, gingembre frais, infusion citron.
+Metformine (Glucophage)	Sûr (Safe)	Catégorie B / Validé SOPK	Utilisé dans la gestion du SOPK en phase pré-conceptuelle et parfois en alternative à l'insuline.	N'induit pas d'anomalies de morphologie.	Insuline injectable (traitement de référence du diabète gestationnel).
+Vitamine D3 (Cholécalciférol, Uvedose)	Sûr (Safe)	Catégorie A / Recommandé	Favorise l'absorption osseuse du calcium par le squelette fœtal et prévient l'hypocalcémie néonatale.	Aucun aux doses préconisées.	Exposition modérée au soleil, poissons gras bien cuits.
+Doxycycline & Tétracyclines	Interdit (Unsafe/Avoid)	Catégorie D / Chélateur calcium	Se fixe sur le tissu osseux et les germes dentaires en formation dès le 2e trimestre.	Coloration jaune-brune définitive des dents de lait, hypoplasie de l'émail.	Amoxicilline, Azithromycine, Macrolides compatibles.
+Ciprofloxacine & Fluoroquinolones	Interdit (Unsafe/Avoid)	Catégorie C / Toxicité cartilages	Risque théorique d'atteinte du cartilage de conjugaison et des articulations fœtales.	Arthropathies fœtales expérimentales.	Pénicillines, Céphalosporines de 3e génération.
+Tabac & Nicotine (Cigarette, Vapoteuse)	Interdit (Unsafe/Avoid)	Toxique fœtal majeur	Le monoxyde de carbone réduit l'oxygénation sanguine et la nicotine entraîne une vasoconstriction placentaire.	Petit poids de naissance, accouchement prématuré, mort fœtale in utero.	Substituts nicotiniques oraux validés en maternité, tabacologie.
+Fer (Tardyféron, Fumafer)	Sûr (Safe)	Catégorie A / Minéral vital	Corrige l'anémie ferriprive maternelle et assure un volume adéquat d'hémoglobine fœtale.	Aucun effet néfaste pour le fœtus.	Alimentation riche en fer (viandes très bien cuites, lentilles) + vitamine C.
+Tramadol & Codéine (Opioïdes)	Prudence / Avis Médical	Usage bref sous contrôle	Réservé aux douleurs aiguës non calmées par le paracétamol, sur prescription formelle et courte durée.	Risque de syndrome de sevrage néonatal en cas d'utilisation prolongée à l'accouchement.	Paracétamol, infiltration locale, prise en charge en centre de la douleur.
+11. Baby Daily Care Tracking Tools (Journal Quotidien Bébé)
+Allaitement au Sein (Nursing Tracker) :
+Suivi du côté (Sein Gauche / Sein Droit) avec chronomètre par sein.
+Suggestion automatique du prochain côté pour équilibrer la lactation.
+Biberon (Bottle / Formula) :
+Suivi de la quantité bue en millilitres (ml) et du type de lait (maternel exprimé ou préparation pour nourrissons).
+Tire-Lait (Pumping Session) :
+Durée d'expression, volume recueilli en ml, côté et méthode de stockage (frigo / congélateur).
+Suivi des Couches (Diaper Log) :
+Type de selle (Mouillée / Urine, Selle, ou Mixte).
+Texture et couleur des selles (jaune d'or, granuleuse, meconium).
+Sommeil de Bébé (Sleep Tracker) :
+Heure d'endormissement, heure de réveil et calcul de la durée des siestes et nuits.
+Compteur de Coups Fœtaux (Fetal Kick Counter) :
+Protocole des 10 mouvements fœtaux (temps nécessaire pour atteindre 10 mouvements distincts).
+Chronomètre de Contractions (Contraction Timer) :
+Durée de la contraction et intervalle entre le début de deux contractions consécutives (règle 5-1-1 pour le départ en maternité).

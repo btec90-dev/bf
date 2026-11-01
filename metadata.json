@@ -1,0 +1,8 @@
+{
+  "name": "B&F",
+  "description": "Suivi complet de grossesse, chronologie fœtale 1-41 SA, constantes cliniques ACOG, base médicamenteuse, export sage-femme et journal de bébé.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
