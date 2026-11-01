@@ -1,4 +1,36 @@
-export type TabType = 'home' | 'timeline' | 'guide' | 'tools' | 'baby';
+export type TabType = 'home' | 'chrono' | 'suivi' | 'guide' | 'trousseau';
+
+export type CalendarEventType = 'gyn' | 'injection' | 'memo' | 'journal' | 'exam';
+
+export interface CalendarEvent {
+  id: string;
+  date: string; // YYYY-MM-DD
+  time?: string; // HH:mm
+  title: string;
+  type: CalendarEventType;
+  notes?: string;
+  completed?: boolean;
+  location?: string;
+}
+
+export type PregnancyMethod = 'dpa' | 'ddr' | 'conception';
+
+export interface PregnancyConfig {
+  method: PregnancyMethod;
+  date: string; // YYYY-MM-DD
+}
+
+export interface PmaConfig {
+  cycleStartDate: string; // YYYY-MM-DD
+  protocolName: string;
+  status: string;
+  morningInjectionTime: string;
+  eveningInjectionTime: string;
+  clinicName: string;
+  clinicPhone: string;
+  emergencyPhone: string;
+  clinicEmail: string;
+}
 
 export type MedicationSafetyStatus = 'safe' | 'unsafe' | 'caution';
 

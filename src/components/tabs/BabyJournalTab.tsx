@@ -23,6 +23,7 @@ import { ChecklistItem, BabyCareLog, UltrasoundMemory, BirthPlanAnswer } from '.
 import { CHECKLIST_ITEMS, BIRTH_PLAN_TOPICS } from '../../data/guidelinesData';
 
 interface Props {
+  initialSubTab?: 'daily' | 'checklist' | 'birthplan' | 'ultrasound';
   checkedChecklistIds: Record<string, boolean>;
   onToggleChecklistItem: (id: string) => void;
   birthPlanAnswers: Record<string, string>;
@@ -34,6 +35,7 @@ interface Props {
 }
 
 export const BabyJournalTab: React.FC<Props> = ({
+  initialSubTab = 'checklist',
   checkedChecklistIds,
   onToggleChecklistItem,
   birthPlanAnswers,
@@ -43,7 +45,7 @@ export const BabyJournalTab: React.FC<Props> = ({
   ultrasounds,
   onAddUltrasound,
 }) => {
-  const [subTab, setSubTab] = useState<'daily' | 'checklist' | 'birthplan' | 'ultrasound'>('daily');
+  const [subTab, setSubTab] = useState<'daily' | 'checklist' | 'birthplan' | 'ultrasound'>(initialSubTab);
 
   // NURSING TRACKER STATE
   const [nursingSide, setNursingSide] = useState<'left' | 'right'>('left');
