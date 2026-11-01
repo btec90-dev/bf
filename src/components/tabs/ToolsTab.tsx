@@ -694,12 +694,12 @@ export const ToolsTab: React.FC<Props> = ({
               </p>
             </div>
 
-            {/* Giant Kick Circle Button - Light Brown / Caramel Gradient */}
+            {/* Kick Circle Button - Light Brown / Caramel Gradient */}
             <div className="flex flex-col items-center justify-center">
               <button
                 type="button"
                 onClick={handleKickTap}
-                className="w-44 h-44 rounded-full bg-gradient-to-tr from-[#8a5732] via-[#a36940] to-[#6d4021] text-white shadow-xl shadow-[#8a5732]/25 active:scale-95 transition-all flex flex-col items-center justify-center cursor-pointer group"
+                className="w-36 h-36 sm:w-44 sm:h-44 rounded-full bg-gradient-to-tr from-[#8a5732] via-[#a36940] to-[#6d4021] text-white shadow-xl shadow-[#8a5732]/25 active:scale-95 transition-all flex flex-col items-center justify-center cursor-pointer group"
               >
                 <Baby className="w-10 h-10 group-hover:scale-110 transition-transform mb-1" />
                 <span className="text-3xl font-black font-mono tracking-tight">{kickCount} / 10</span>
@@ -792,12 +792,12 @@ export const ToolsTab: React.FC<Props> = ({
               </div>
             )}
 
-            {/* Huge Timer Action Button */}
+            {/* Timer Action Button */}
             <div className="flex flex-col items-center justify-center">
               <button
                 type="button"
                 onClick={handleToggleContraction}
-                className={`w-44 h-44 rounded-full text-white shadow-xl active:scale-95 transition-all flex flex-col items-center justify-center cursor-pointer ${
+                className={`w-36 h-36 sm:w-44 sm:h-44 rounded-full text-white shadow-xl active:scale-95 transition-all flex flex-col items-center justify-center cursor-pointer ${
                   isContracting
                     ? 'bg-[#8a5732] shadow-[#8a5732]/30 animate-pulse'
                     : 'bg-[#2d221a] dark:bg-[#3d3127] hover:bg-[#3d3127] dark:hover:bg-[#4d3e33] shadow-md'

@@ -209,8 +209,8 @@ export const ExportHealthModal: React.FC<Props> = ({
     (includeWeight ? weightLogs.length : 0);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
-      <div className="relative w-full max-w-xl bg-white dark:bg-[#231d18] rounded-2xl shadow-2xl border border-[#ddcfc0] dark:border-[#382d24] p-6 sm:p-7 max-h-[90vh] overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in overflow-y-auto">
+      <div className="relative w-full max-w-xl bg-white dark:bg-[#231d18] rounded-2xl shadow-2xl border border-[#ddcfc0] dark:border-[#382d24] p-4 sm:p-6 md:p-7 max-h-[92vh] overflow-y-auto my-auto">
         {/* Header */}
         <div className="flex items-start justify-between gap-4 pb-4 border-b border-[#eee5da] dark:border-[#382d24]">
           <div className="flex items-center gap-3">

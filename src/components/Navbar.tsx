@@ -39,11 +39,11 @@ export const Navbar: React.FC<Props> = ({
     <>
       {/* TOP HEADER BAR (Light brown / sand tone matching palette #F3ECE2 / #E8DEC8) */}
       <header className="sticky top-0 z-40 bg-[#F3ECE2]/95 dark:bg-[#231d18]/95 backdrop-blur-md border-b border-[#E8DEC8] dark:border-[#382d24] transition-colors">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 sm:h-20 flex items-center justify-between gap-4">
+        <div className="w-full max-w-[1200px] mx-auto px-3 sm:px-5 md:px-8 h-16 sm:h-20 flex items-center justify-between gap-2 sm:gap-4">
           {/* Left: Avatar + Title & Subtitle */}
-          <div className="flex items-center gap-3 shrink-0">
+          <div className="flex items-center gap-2.5 sm:gap-3 shrink min-w-0">
             {/* B&F App Logo */}
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[#E8DEC8] dark:bg-[#342921] border-2 border-[#d6c7b2] dark:border-[#523e30] flex items-center justify-center shadow-sm shrink-0 overflow-hidden ring-2 ring-[#443126]/10">
+            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#E8DEC8] dark:bg-[#342921] border-2 border-[#d6c7b2] dark:border-[#523e30] flex items-center justify-center shadow-sm shrink-0 overflow-hidden ring-2 ring-[#443126]/10">
               <img
                 src="/assets/aistudio/app_logo_254b0a7d.jpg"
                 alt="Logo B&F"
@@ -54,12 +54,12 @@ export const Navbar: React.FC<Props> = ({
             <button
               type="button"
               onClick={() => onTabChange('home')}
-              className="text-left group cursor-pointer focus:outline-none"
+              className="text-left group cursor-pointer focus:outline-none min-w-0"
             >
-              <span className="text-2xl sm:text-3xl font-bold font-serif tracking-normal text-[#443126] dark:text-[#f8f2eb] whitespace-nowrap block group-hover:text-[#6a4f3b] transition-colors leading-none mb-0.5">
+              <span className="text-xl sm:text-3xl font-bold font-serif tracking-normal text-[#443126] dark:text-[#f8f2eb] whitespace-nowrap block group-hover:text-[#6a4f3b] transition-colors leading-none mb-0.5">
                 B&amp;F
               </span>
-              <span className="text-[11px] sm:text-xs text-[#7d6c5d] dark:text-[#b09e90] font-medium tracking-tight block truncate max-w-[220px] sm:max-w-none">
+              <span className="text-[10px] sm:text-xs text-[#7d6c5d] dark:text-[#b09e90] font-medium tracking-tight block truncate max-w-[170px] xs:max-w-[240px] sm:max-w-none">
                 Maman &amp; Bébé · Un jour, un pas, un battement de cœur à la fois
               </span>
             </button>
@@ -88,9 +88,9 @@ export const Navbar: React.FC<Props> = ({
           </nav>
 
           {/* Right: Quick Action Icons (PDF Export, Language FR, Theme) */}
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             {/* Language Selector */}
-            <div className="flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-[#E8DEC8]/60 dark:bg-[#342921] border border-[#d6c7b2] dark:border-[#47372b] text-xs font-bold text-[#443126] dark:text-[#eedacb]">
+            <div className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-xl bg-[#E8DEC8]/60 dark:bg-[#342921] border border-[#d6c7b2] dark:border-[#47372b] text-[11px] sm:text-xs font-bold text-[#443126] dark:text-[#eedacb]">
               <Globe className="w-3.5 h-3.5" />
               <span>FR</span>
             </div>
@@ -99,7 +99,7 @@ export const Navbar: React.FC<Props> = ({
             <button
               onClick={onToggleTheme}
               type="button"
-              className="p-2 rounded-xl text-[#6b5849] hover:text-[#2d221a] dark:text-[#baa99b] dark:hover:text-white hover:bg-[#E8DEC8]/60 dark:hover:bg-[#342921] transition-colors cursor-pointer"
+              className="p-1.5 sm:p-2 rounded-xl text-[#6b5849] hover:text-[#2d221a] dark:text-[#baa99b] dark:hover:text-white hover:bg-[#E8DEC8]/60 dark:hover:bg-[#342921] transition-colors cursor-pointer"
               title={isDark ? 'Passer en mode clair' : 'Passer en mode sombre'}
               aria-label="Changer de thème"
             >
@@ -110,11 +110,11 @@ export const Navbar: React.FC<Props> = ({
             <button
               onClick={onOpenExport}
               type="button"
-              className="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-bold text-white bg-[#443126] hover:bg-[#3B281E] active:scale-95 rounded-xl shadow-xs transition-all whitespace-nowrap shrink-0 cursor-pointer"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 sm:py-2 text-[11px] sm:text-xs font-bold text-white bg-[#443126] hover:bg-[#3B281E] active:scale-95 rounded-xl shadow-xs transition-all whitespace-nowrap shrink-0 cursor-pointer"
               title="Exporter les relevés en PDF / CSV / JSON"
             >
-              <FileDown className="w-4 h-4" />
-              <span className="hidden sm:inline">Export PDF</span>
+              <FileDown className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <span className="hidden xs:inline">Export PDF</span>
             </button>
           </div>
         </div>

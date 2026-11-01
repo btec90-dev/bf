@@ -31,8 +31,8 @@ export const EditPregnancyDateModal: React.FC<Props> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs">
-      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#e8dec8] dark:border-[#382d24] rounded-3xl max-w-md w-full p-6 shadow-2xl space-y-5 animate-scale-up">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/50 backdrop-blur-xs overflow-y-auto">
+      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#e8dec8] dark:border-[#382d24] rounded-2xl sm:rounded-3xl max-w-md w-full p-4 sm:p-6 shadow-2xl space-y-4 sm:space-y-5 animate-scale-up my-auto max-h-[92vh] overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between pb-3 border-b border-[#e8dec8] dark:border-[#382d24]">
           <div className="flex items-center gap-2">

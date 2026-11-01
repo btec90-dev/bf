@@ -134,25 +134,25 @@ export const HomeTab: React.FC<Props> = ({
       />
 
       {/* Cloud Sync Status Header & User Profile strip */}
-      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs">
-        <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-full bg-[#F3ECE2] dark:bg-[#382d24] text-[#443126] dark:text-[#eedacb] flex items-center justify-center font-bold text-sm shrink-0 border border-[#d8c8b4] dark:border-[#47372b] overflow-hidden shadow-xs ring-1 ring-[#443126]/10">
+      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-3.5 sm:p-4 md:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs">
+        <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+          <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[#F3ECE2] dark:bg-[#382d24] text-[#443126] dark:text-[#eedacb] flex items-center justify-center font-bold text-sm shrink-0 border border-[#d8c8b4] dark:border-[#47372b] overflow-hidden shadow-xs ring-1 ring-[#443126]/10">
             <img
               src="/assets/aistudio/app_logo_254b0a7d.jpg"
               alt="Avatar B&F"
               className="w-full h-full object-cover object-center"
             />
           </div>
-          <div>
+          <div className="min-w-0">
             <div className="flex items-center gap-2">
-              <h1 className="text-base sm:text-lg font-bold text-[#3B281E] dark:text-white">
+              <h1 className="text-sm sm:text-base md:text-lg font-bold text-[#3B281E] dark:text-white truncate">
                 Bienvenue dans votre Espace Grossesse &amp; PMA
               </h1>
             </div>
-            <div className="flex items-center gap-2 text-xs text-[#7d6c5d] dark:text-[#a8988a] mt-0.5">
+            <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-[11px] sm:text-xs text-[#7d6c5d] dark:text-[#a8988a] mt-0.5">
               <span className="flex items-center gap-1.5 text-emerald-700 dark:text-emerald-400 font-medium">
-                <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                Synchronisation Cloud Active
+                <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" />
+                <span>Synchronisation Cloud Active</span>
               </span>
               <span aria-hidden="true">·</span>
               <span className="font-mono text-[#5c4c3e] dark:text-[#c4b5a6]">Espace Privé B&amp;F</span>
@@ -160,22 +160,22 @@ export const HomeTab: React.FC<Props> = ({
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0 self-start sm:self-auto">
           <button
             type="button"
             onClick={onOpenEditPregnancyDate}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-[#443126] dark:text-[#eedacb] bg-[#F3ECE2] hover:bg-[#E8DEC8] dark:bg-[#342921] dark:hover:bg-[#403328] rounded-xl border border-[#ebdcc9] dark:border-[#47372b] transition-colors cursor-pointer"
           >
             <Edit3 className="w-3.5 h-3.5 text-[#443126] dark:text-[#eedacb]" />
-            <span>Modifier la date du terme</span>
+            <span>Modifier le terme</span>
           </button>
         </div>
       </div>
 
       {/* 1. ACCÈS RAPIDE: TROUSSEAU BÉBÉ & MAMAN */}
-      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-5 sm:p-6 shadow-xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="space-y-1.5">
+      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-4 sm:p-5 md:p-6 shadow-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
+          <div className="space-y-1.5 min-w-0">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold uppercase tracking-wider text-[#443126] dark:text-[#eedacb]">
                 Accès Rapide
@@ -186,11 +186,11 @@ export const HomeTab: React.FC<Props> = ({
             <h2 className="text-base sm:text-lg font-bold text-[#3B281E] dark:text-white">
               Trousseau Bébé &amp; Valise Maman
             </h2>
-            <div className="flex items-center gap-3 pt-1">
+            <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 pt-1">
               <span className="text-xs font-semibold text-[#5c4c3e] dark:text-[#c4b5a6]">
                 {checkedChecklistCount} sur {totalChecklistCount} articles prêts
               </span>
-              <div className="w-36 h-2 bg-[#F3ECE2] dark:bg-[#342921] rounded-full overflow-hidden">
+              <div className="w-28 sm:w-36 h-2 bg-[#F3ECE2] dark:bg-[#342921] rounded-full overflow-hidden">
                 <div
                   className="h-full bg-[#443126] dark:bg-[#eedacb] rounded-full transition-all duration-300"
                   style={{ width: `${checklistProgress}%` }}
@@ -205,7 +205,7 @@ export const HomeTab: React.FC<Props> = ({
           <button
             type="button"
             onClick={() => onNavigateTab('trousseau')}
-            className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#443126] hover:bg-[#3B281E] active:scale-95 text-white text-xs sm:text-sm font-bold shadow-xs transition-all self-start sm:self-auto cursor-pointer"
+            className="inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl bg-[#443126] hover:bg-[#3B281E] active:scale-95 text-white text-xs sm:text-sm font-bold shadow-xs transition-all self-start sm:self-auto cursor-pointer shrink-0"
           >
             <span>Ouvrir le Trousseau &amp; Préparatifs</span>
             <ArrowRight className="w-4 h-4" />
@@ -214,7 +214,7 @@ export const HomeTab: React.FC<Props> = ({
       </div>
 
       {/* 2. DANS VOTRE VENTRE EN 3D (FEATURED LIGHT BROWN CARD) */}
-      <div className="relative overflow-hidden rounded-3xl bg-[#E8DEC8] dark:bg-[#342921] text-[#3B281E] dark:text-[#f8f2eb] p-6 sm:p-8 shadow-md border border-[#d6c7b2] dark:border-[#47372b]">
+      <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-[#E8DEC8] dark:bg-[#342921] text-[#3B281E] dark:text-[#f8f2eb] p-4 sm:p-6 md:p-8 shadow-md border border-[#d6c7b2] dark:border-[#47372b]">
         {/* Soft warm glow element */}
         <div className="absolute top-0 right-0 -mt-10 -mr-10 w-80 h-80 rounded-full bg-[#FFFDF8]/40 dark:bg-white/5 blur-3xl pointer-events-none" />
 
@@ -297,7 +297,7 @@ export const HomeTab: React.FC<Props> = ({
       </div>
 
       {/* 3. SUIVI QUOTIDIEN DE BÉBÉ (NOUVEAU-NÉ) */}
-      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
+      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-4 sm:p-5 md:p-6 shadow-xs space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-[#E8DEC8] dark:border-[#382d24]">
           <div>
             <h3 className="font-bold text-base sm:text-lg text-[#3B281E] dark:text-white">
@@ -311,7 +311,7 @@ export const HomeTab: React.FC<Props> = ({
           <button
             type="button"
             onClick={() => onNavigateTab('trousseau')}
-            className="text-xs font-semibold text-[#443126] dark:text-[#eedacb] hover:underline flex items-center gap-1 cursor-pointer self-start sm:self-auto"
+            className="text-xs font-semibold text-[#443126] dark:text-[#eedacb] hover:underline flex items-center gap-1 cursor-pointer self-start sm:self-auto shrink-0"
           >
             <span>+ Noter une activité / Ouvrir le Tracker</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -319,11 +319,11 @@ export const HomeTab: React.FC<Props> = ({
         </div>
 
         {/* 4 Quick Log Buttons */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3">
           <button
             type="button"
             onClick={() => onQuickBabyLog('nursing')}
-            className="p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
+            className="p-3 sm:p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
           >
             <span className="text-2xl block mb-1">🤱</span>
             <span className="text-xs font-bold text-[#3B281E] dark:text-white block">Tétée</span>
@@ -333,7 +333,7 @@ export const HomeTab: React.FC<Props> = ({
           <button
             type="button"
             onClick={() => onQuickBabyLog('bottle')}
-            className="p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
+            className="p-3 sm:p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
           >
             <span className="text-2xl block mb-1">🍼</span>
             <span className="text-xs font-bold text-[#3B281E] dark:text-white block">Biberon</span>
@@ -343,7 +343,7 @@ export const HomeTab: React.FC<Props> = ({
           <button
             type="button"
             onClick={() => onQuickBabyLog('pumping')}
-            className="p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
+            className="p-3 sm:p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
           >
             <span className="text-2xl block mb-1">🥛</span>
             <span className="text-xs font-bold text-[#3B281E] dark:text-white block">Tire-lait</span>
@@ -353,7 +353,7 @@ export const HomeTab: React.FC<Props> = ({
           <button
             type="button"
             onClick={() => onQuickBabyLog('diaper')}
-            className="p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
+            className="p-3 sm:p-3.5 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128] hover:border-[#443126] dark:hover:border-[#eedacb] text-center transition-all group cursor-pointer"
           >
             <span className="text-2xl block mb-1">🩹</span>
             <span className="text-xs font-bold text-[#3B281E] dark:text-white block">Couche</span>
@@ -372,91 +372,91 @@ export const HomeTab: React.FC<Props> = ({
           {/* Card 1: Chronologie Inversée & Étapes */}
           <div
             onClick={() => onNavigateTab('chrono')}
-            className="p-4 sm:p-5 rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-4 cursor-pointer shadow-xs group"
+            className="p-3.5 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-3 sm:gap-4 cursor-pointer shadow-xs group"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 min-w-0">
               <div className="w-10 h-10 rounded-xl bg-[#FAF6EE] dark:bg-[#342921] text-[#443126] dark:text-[#eedacb] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                 <Calendar className="w-5 h-5" />
               </div>
-              <div>
-                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white">
+              <div className="min-w-0">
+                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white truncate">
                   Chronologie Inversée &amp; Étapes
                 </h4>
-                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a]">
+                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a] truncate">
                   Du présent vers l'accouchement et jalons
                 </p>
               </div>
             </div>
-            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all" />
+            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all shrink-0" />
           </div>
 
           {/* Card 2: Suivi & Outils (Coups, Poids, Injections) */}
           <div
             onClick={() => onNavigateTab('suivi')}
-            className="p-4 sm:p-5 rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-4 cursor-pointer shadow-xs group"
+            className="p-3.5 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-3 sm:gap-4 cursor-pointer shadow-xs group"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 min-w-0">
               <div className="w-10 h-10 rounded-xl bg-[#FAF6EE] dark:bg-[#342921] text-[#443126] dark:text-[#eedacb] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                 <Activity className="w-5 h-5" />
               </div>
-              <div>
-                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white">
+              <div className="min-w-0">
+                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white truncate">
                   Suivi &amp; Outils (Coups, Poids, Injections)
                 </h4>
-                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a]">
+                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a] truncate">
                   Compteur de coups, historique des pesées et protocole
                 </p>
               </div>
             </div>
-            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all" />
+            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all shrink-0" />
           </div>
 
           {/* Card 3: Projet de Naissance & Carnet Intime */}
           <div
             onClick={() => onNavigateTab('trousseau')}
-            className="p-4 sm:p-5 rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-4 cursor-pointer shadow-xs group"
+            className="p-3.5 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-3 sm:gap-4 cursor-pointer shadow-xs group"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 min-w-0">
               <div className="w-10 h-10 rounded-xl bg-[#FAF6EE] dark:bg-[#342921] text-[#443126] dark:text-[#eedacb] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                 <FileText className="w-5 h-5" />
               </div>
-              <div>
-                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white">
+              <div className="min-w-0">
+                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white truncate">
                   Projet de Naissance &amp; Carnet Intime
                 </h4>
-                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a]">
+                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a] truncate">
                   Export PDF pour les professionnels de santé
                 </p>
               </div>
             </div>
-            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all" />
+            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all shrink-0" />
           </div>
 
           {/* Card 4: Protocole PMA, Rappels & Réglages */}
           <div
             onClick={onOpenPmaModal}
-            className="p-4 sm:p-5 rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-4 cursor-pointer shadow-xs group"
+            className="p-3.5 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] hover:border-[#bda58d] dark:hover:border-[#6a5445] transition-all flex items-center justify-between gap-3 sm:gap-4 cursor-pointer shadow-xs group"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 min-w-0">
               <div className="w-10 h-10 rounded-xl bg-[#FAF6EE] dark:bg-[#342921] text-[#443126] dark:text-[#eedacb] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                 <Syringe className="w-5 h-5" />
               </div>
-              <div>
-                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white">
+              <div className="min-w-0">
+                <h4 className="text-sm font-bold text-[#3B281E] dark:text-white truncate">
                   Protocole PMA, Rappels &amp; Réglages
                 </h4>
-                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a]">
+                <p className="text-xs text-[#7d6c5d] dark:text-[#a8988a] truncate">
                   Traitements, dosages quotidiens, rappels push &amp; téléphone clinique
                 </p>
               </div>
             </div>
-            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all" />
+            <ChevronRight className="w-5 h-5 text-[#7d6c5d] group-hover:text-[#443126] dark:group-hover:text-white group-hover:translate-x-1 transition-all shrink-0" />
           </div>
         </div>
       </div>
 
       {/* 5. WIDGET CENTRE PMA */}
-      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
+      <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-4 sm:p-5 md:p-6 shadow-xs space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-[#E8DEC8] dark:border-[#382d24]">
           <div className="flex items-center gap-2">
             <Syringe className="w-4 h-4 text-[#443126] dark:text-[#eedacb]" />
@@ -467,14 +467,14 @@ export const HomeTab: React.FC<Props> = ({
           <button
             type="button"
             onClick={onOpenPmaModal}
-            className="text-xs font-semibold text-[#443126] dark:text-[#eedacb] hover:underline flex items-center gap-1 cursor-pointer self-start sm:self-auto"
+            className="text-xs font-semibold text-[#443126] dark:text-[#eedacb] hover:underline flex items-center gap-1 cursor-pointer self-start sm:self-auto shrink-0"
           >
             <span>Modifier le centre</span>
             <Edit3 className="w-3 h-3" />
           </button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3 text-xs">
           <div className="p-3 rounded-xl bg-[#FAF6EE] dark:bg-[#2b221b] border border-[#ebdcc9] dark:border-[#3d3128]">
             <span className="text-[11px] text-[#7d6c5d] uppercase block">Début de Cycle</span>
             <span className="font-bold font-mono text-sm text-[#3B281E] dark:text-white">
@@ -517,9 +517,9 @@ export const HomeTab: React.FC<Props> = ({
       </div>
 
       {/* 6. ULTRASOUND & MEDICAL MILESTONES (CLICHÉS & MÉDICAMENTS) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 items-start">
         {/* Left: Galerie Clichés d'Échographie */}
-        <div className="lg:col-span-7 bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
+        <div className="lg:col-span-7 bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-4 sm:p-5 md:p-6 shadow-xs space-y-4">
           <div className="flex items-center justify-between pb-3 border-b border-[#E8DEC8] dark:border-[#382d24]">
             <div>
               <h3 className="font-bold text-base text-[#3B281E] dark:text-white">

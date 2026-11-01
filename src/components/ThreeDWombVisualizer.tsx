@@ -326,12 +326,21 @@ export const ThreeDWombVisualizer: React.FC<Props> = ({ currentWeek, onWeekChang
     const handleResize = () => {
       if (!containerRef.current) return;
       const newW = containerRef.current.clientWidth;
-      const newH = containerRef.current.clientHeight || 420;
+      const newH = containerRef.current.clientHeight || 380;
+      if (newW === 0) return;
       camera.aspect = newW / newH;
       camera.updateProjectionMatrix();
       renderer.setSize(newW, newH);
     };
     window.addEventListener('resize', handleResize);
+
+    // ResizeObserver for reliable Google Sites iframe & embed resizing
+    const resizeObserver = new ResizeObserver(() => {
+      handleResize();
+    });
+    if (containerRef.current) {
+      resizeObserver.observe(containerRef.current);
+    }
 
     // ANIMATION LOOP
     const clock = new THREE.Clock();
@@ -382,6 +391,7 @@ export const ThreeDWombVisualizer: React.FC<Props> = ({ currentWeek, onWeekChang
       window.removeEventListener('touchmove', onTouchMove);
       window.removeEventListener('touchend', onTouchEnd);
       window.removeEventListener('resize', handleResize);
+      resizeObserver.disconnect();
       renderer.dispose();
       sacGeo.dispose();
       sacMat.dispose();
@@ -444,25 +454,25 @@ export const ThreeDWombVisualizer: React.FC<Props> = ({ currentWeek, onWeekChang
   return (
     <div className="relative w-full rounded-2xl bg-gradient-to-b from-[#382315] via-[#231a13] to-[#15100c] text-white overflow-hidden border border-[#5c402d] shadow-xl">
       {/* Top Header Overlay */}
-      <div className="absolute top-4 left-4 right-4 z-10 flex items-center justify-between pointer-events-none">
+      <div className="absolute top-3 sm:top-4 left-3 sm:left-4 right-3 sm:right-4 z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pointer-events-none">
         <div className="pointer-events-auto">
-          <div className="flex items-center gap-2">
-            <span className="text-xs uppercase tracking-wider text-[#eedacb] font-semibold">
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            <span className="text-[10px] sm:text-xs uppercase tracking-wider text-[#eedacb] font-semibold">
               Vue Immersive &amp; Anatomique
             </span>
             <span className="text-xs text-[#eedacb]/60">·</span>
-            <span className="text-xs text-[#eedacb]/80 font-mono">3D WebGL</span>
+            <span className="text-[10px] sm:text-xs text-[#eedacb]/80 font-mono">3D WebGL</span>
           </div>
-          <h3 className="text-xl font-bold text-white tracking-tight flex items-center gap-2 mt-0.5">
+          <h3 className="text-base sm:text-xl font-bold text-white tracking-tight flex items-center gap-2 mt-0.5">
             Dans le Ventre — Semaine {currentWeek} SA
           </h3>
         </div>
 
-        <div className="flex items-center gap-2 pointer-events-auto">
+        <div className="flex items-center gap-2 pointer-events-auto self-start sm:self-auto">
           <button
             onClick={toggleHeartbeat}
             type="button"
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-[11px] sm:text-xs font-medium transition-all cursor-pointer ${
               isPlayingHeartbeat
                 ? 'bg-[#8a5732] text-white shadow-lg shadow-[#8a5732]/30 animate-pulse'
                 : 'bg-white/10 hover:bg-white/20 text-[#f2e6dc] border border-white/10'
@@ -470,13 +480,13 @@ export const ThreeDWombVisualizer: React.FC<Props> = ({ currentWeek, onWeekChang
             title="Activer le son du stéthoscope fœtal"
           >
             {isPlayingHeartbeat ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
-            <span>{isPlayingHeartbeat ? 'Cœur actif (~140 bpm)' : 'Écouter le cœur'}</span>
+            <span>{isPlayingHeartbeat ? 'Cœur (~140 bpm)' : 'Écouter le cœur'}</span>
           </button>
 
           <button
             onClick={resetView}
             type="button"
-            className="p-2 rounded-lg bg-white/10 hover:bg-white/20 text-[#f2e6dc] border border-white/10 transition-colors cursor-pointer"
+            className="p-1.5 sm:p-2 rounded-lg bg-white/10 hover:bg-white/20 text-[#f2e6dc] border border-white/10 transition-colors cursor-pointer"
             title="Réinitialiser l'angle de vue"
           >
             <RotateCcw className="w-3.5 h-3.5" />
@@ -485,10 +495,10 @@ export const ThreeDWombVisualizer: React.FC<Props> = ({ currentWeek, onWeekChang
       </div>
 
       {/* 3D WebGL Canvas Container */}
-      <div ref={containerRef} className="w-full h-[380px] sm:h-[420px] cursor-grab active:cursor-grabbing" />
+      <div ref={containerRef} className="w-full h-[300px] sm:h-[380px] md:h-[420px] cursor-grab active:cursor-grabbing" />
 
       {/* Interactive Controls & Obstetric Metrics Strip */}
-      <div className="p-4 sm:p-5 bg-[#231a13]/95 backdrop-blur-md border-t border-[#4a3424]">
+      <div className="p-3.5 sm:p-5 bg-[#231a13]/95 backdrop-blur-md border-t border-[#4a3424]">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
           {/* Week Selector Slider */}
           <div className="md:col-span-2">

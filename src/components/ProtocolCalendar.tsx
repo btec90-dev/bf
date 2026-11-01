@@ -258,7 +258,7 @@ export const ProtocolCalendar: React.FC<Props> = ({
       {/* 1. Monthly Calendar Card */}
       <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#e8dec8] dark:border-[#382d24] rounded-2xl p-4 sm:p-6 shadow-xs">
         {/* Month Navigation & Title */}
-        <div className="flex items-center justify-between pb-4 border-b border-[#e8dec8] dark:border-[#382d24]">
+        <div className="flex flex-col xs:flex-row xs:items-center justify-between gap-3 pb-4 border-b border-[#e8dec8] dark:border-[#382d24]">
           <div className="flex items-center gap-2">
             <CalendarIcon className="w-5 h-5 text-[#443126] dark:text-[#eedacb]" />
             <h2 className="text-base sm:text-lg font-bold text-[#3B281E] dark:text-white">
@@ -266,7 +266,7 @@ export const ProtocolCalendar: React.FC<Props> = ({
             </h2>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2 self-start xs:self-auto">
             <button
               type="button"
               onClick={prevMonth}
@@ -275,7 +275,7 @@ export const ProtocolCalendar: React.FC<Props> = ({
             >
               <ChevronLeft className="w-5 h-5" />
             </button>
-            <span className="font-bold text-sm sm:text-base text-[#3B281E] dark:text-white min-w-[140px] text-center">
+            <span className="font-bold text-xs sm:text-base text-[#3B281E] dark:text-white min-w-[110px] sm:min-w-[140px] text-center">
               {MONTH_NAMES[viewMonth]} {viewYear}
             </span>
             <button
@@ -536,8 +536,8 @@ export const ProtocolCalendar: React.FC<Props> = ({
 
       {/* 4. Add/Edit Event Modal */}
       {isAddModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs">
-          <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#e8dec8] dark:border-[#382d24] rounded-3xl max-w-lg w-full p-6 shadow-2xl space-y-4 animate-scale-up">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/50 backdrop-blur-xs overflow-y-auto">
+          <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#e8dec8] dark:border-[#382d24] rounded-2xl sm:rounded-3xl max-w-lg w-full p-4 sm:p-6 shadow-2xl space-y-4 animate-scale-up max-h-[92vh] overflow-y-auto my-auto">
             <div className="flex items-center justify-between pb-3 border-b border-[#e8dec8] dark:border-[#382d24]">
               <h3 className="font-bold text-base text-[#3B281E] dark:text-white">
                 {editingEventId ? 'Modifier l\'Événement' : '+ Nouvel Événement ou Rendez-vous'}

@@ -527,8 +527,8 @@ export default function App() {
         onToggleTheme={() => setIsDark(!isDark)}
       />
 
-      {/* Main Viewport */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 pb-24 lg:pb-12">
+      {/* Main Viewport Container (Responsive 100% width up to max-width 1200px, optimized for mobile, tablet, desktop, and Google Sites embeds) */}
+      <main className="flex-1 w-full max-w-[1200px] mx-auto px-3 sm:px-5 md:px-8 py-4 sm:py-6 md:py-8 pb-28 lg:pb-12 transition-all">
         {currentTab === 'home' && (
           <HomeTab
             currentWeek={currentWeek}
@@ -628,8 +628,8 @@ export default function App() {
       />
 
       {/* Footer with Cloud Sync Status & Device Sync Info */}
-      <footer className="border-t border-[#E8DEC8] dark:border-[#2f2620] py-6 text-xs text-[#7d6c5d] dark:text-[#9e8d7f] bg-[#FAF6EE]/90 dark:bg-[#201b17]/90">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <footer className="border-t border-[#E8DEC8] dark:border-[#2f2620] py-5 sm:py-6 text-xs text-[#7d6c5d] dark:text-[#9e8d7f] bg-[#FAF6EE]/90 dark:bg-[#201b17]/90">
+        <div className="w-full max-w-[1200px] mx-auto px-3 sm:px-5 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
           <div className="flex flex-wrap items-center gap-2">
             <span className="font-bold text-[#443126] dark:text-[#f8f1eb]">Maman &amp; Bébé</span>
             <span aria-hidden="true">·</span>
