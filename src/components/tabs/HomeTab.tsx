@@ -136,8 +136,12 @@ export const HomeTab: React.FC<Props> = ({
       {/* Cloud Sync Status Header & User Profile strip */}
       <div className="bg-[#FFFDF8] dark:bg-[#231d18] border border-[#E8DEC8] dark:border-[#382d24] rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-[#F3ECE2] dark:bg-[#382d24] text-[#443126] dark:text-[#eedacb] flex items-center justify-center font-bold text-sm shrink-0 border border-[#d8c8b4] dark:border-[#47372b]">
-            MB
+          <div className="w-11 h-11 rounded-full bg-[#F3ECE2] dark:bg-[#382d24] text-[#443126] dark:text-[#eedacb] flex items-center justify-center font-bold text-sm shrink-0 border border-[#d8c8b4] dark:border-[#47372b] overflow-hidden shadow-xs ring-1 ring-[#443126]/10">
+            <img
+              src="/assets/aistudio/app_logo_254b0a7d.jpg"
+              alt="Avatar B&F"
+              className="w-full h-full object-cover object-center"
+            />
           </div>
           <div>
             <div className="flex items-center gap-2">
@@ -151,7 +155,7 @@ export const HomeTab: React.FC<Props> = ({
                 Synchronisation Cloud Active
               </span>
               <span aria-hidden="true">·</span>
-              <span className="font-mono text-[#5c4c3e] dark:text-[#c4b5a6]">410bala@gmail.com</span>
+              <span className="font-mono text-[#5c4c3e] dark:text-[#c4b5a6]">Espace Privé B&amp;F</span>
             </div>
           </div>
         </div>

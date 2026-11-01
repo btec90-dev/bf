@@ -42,30 +42,13 @@ export const Navbar: React.FC<Props> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 sm:h-20 flex items-center justify-between gap-4">
           {/* Left: Avatar + Title & Subtitle */}
           <div className="flex items-center gap-3 shrink-0">
-            {/* Mother & Baby Silhouette Avatar */}
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[#E8DEC8] dark:bg-[#342921] border border-[#d6c7b2] dark:border-[#47372b] flex items-center justify-center text-[#443126] dark:text-[#eedacb] shadow-xs shrink-0 overflow-hidden">
-              <svg
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 text-[#443126] dark:text-[#eedacb]"
-                aria-label="Avatar Maman et Bébé"
-              >
-                <circle cx="20" cy="13" r="6" fill="currentColor" fillOpacity="0.85" />
-                <path
-                  d="M10 34C10 27.3726 14.4772 22 20 22C25.5228 22 30 27.3726 30 34"
-                  stroke="currentColor"
-                  strokeWidth="3.5"
-                  strokeLinecap="round"
-                />
-                <circle cx="26" cy="22" r="3.5" fill="#C59A7A" />
-                <path
-                  d="M23 31C23 27.6863 25.6863 25 29 25"
-                  stroke="#C59A7A"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                />
-              </svg>
+            {/* B&F App Logo */}
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[#E8DEC8] dark:bg-[#342921] border-2 border-[#d6c7b2] dark:border-[#523e30] flex items-center justify-center shadow-sm shrink-0 overflow-hidden ring-2 ring-[#443126]/10">
+              <img
+                src="/assets/aistudio/app_logo_254b0a7d.jpg"
+                alt="Logo B&F"
+                className="w-full h-full object-cover object-center"
+              />
             </div>
 
             <button
@@ -73,7 +56,7 @@ export const Navbar: React.FC<Props> = ({
               onClick={() => onTabChange('home')}
               className="text-left group cursor-pointer focus:outline-none"
             >
-              <span className="text-xl sm:text-2xl font-black tracking-tight text-[#443126] dark:text-[#f8f2eb] whitespace-nowrap block group-hover:text-[#6a4f3b] transition-colors">
+              <span className="text-2xl sm:text-3xl font-bold font-serif tracking-normal text-[#443126] dark:text-[#f8f2eb] whitespace-nowrap block group-hover:text-[#6a4f3b] transition-colors leading-none mb-0.5">
                 B&amp;F
               </span>
               <span className="text-[11px] sm:text-xs text-[#7d6c5d] dark:text-[#b09e90] font-medium tracking-tight block truncate max-w-[220px] sm:max-w-none">

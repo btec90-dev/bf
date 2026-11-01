@@ -36,7 +36,7 @@ export const ExportHealthModal: React.FC<Props> = ({
 
     // Header info
     lines.push('RAPPORT DE SANTÉ MATERNELLE — B&F (MAMAN & BÉBÉ)');
-    lines.push(`Dossier patient;410bala@gmail.com`);
+    lines.push('Dossier patient;Personnel & Confidentiel (B&F)');
     lines.push(`Terme de la grossesse;${currentWeek} SA`);
     lines.push(`Date de l'export;${new Date().toLocaleDateString('fr-FR')} ${new Date().toLocaleTimeString('fr-FR')}`);
     lines.push('');
@@ -124,7 +124,7 @@ export const ExportHealthModal: React.FC<Props> = ({
       exportMetadata: {
         application: 'B&F Carnet Obstétrical',
         appId: 'com.aistudio.grossesse.mbtxyz',
-        patientAccount: '410bala@gmail.com',
+        patientAccount: 'Dossier Personnel & Confidentiel (B&F)',
         currentWeekAmenorrhea: currentWeek,
         generatedAt: new Date().toISOString(),
         standards: ['ACOG Guidelines', 'HAS Recommandations Prénatales', 'CRAT'],

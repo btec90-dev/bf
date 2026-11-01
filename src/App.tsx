@@ -638,7 +638,7 @@ export default function App() {
             </span>
             <span aria-hidden="true">·</span>
             <span className="text-emerald-700 dark:text-emerald-400 font-medium">
-              Synchronisation Active (410bala@gmail.com)
+              Synchronisation Active (Espace Sécurisé B&amp;F)
             </span>
           </div>
 
