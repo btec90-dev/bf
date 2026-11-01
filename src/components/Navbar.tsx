@@ -73,11 +73,11 @@ export const Navbar: React.FC<Props> = ({
               onClick={() => onTabChange('home')}
               className="text-left group cursor-pointer focus:outline-none"
             >
-              <span className="text-lg sm:text-xl font-extrabold tracking-tight text-[#443126] dark:text-[#f8f2eb] whitespace-nowrap block">
-                Maman &amp; Bébé
+              <span className="text-xl sm:text-2xl font-black tracking-tight text-[#443126] dark:text-[#f8f2eb] whitespace-nowrap block group-hover:text-[#6a4f3b] transition-colors">
+                B&amp;F
               </span>
               <span className="text-[11px] sm:text-xs text-[#7d6c5d] dark:text-[#b09e90] font-medium tracking-tight block truncate max-w-[220px] sm:max-w-none">
-                Un jour, un pas, un battement de cœur à la fois
+                Maman &amp; Bébé · Un jour, un pas, un battement de cœur à la fois
               </span>
             </button>
           </div>
